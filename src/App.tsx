@@ -227,7 +227,7 @@ export default function App() {
             }}
             onClick={createSender}
           >
-            Create a New Solana Account
+            Create New Solana Account
           </button>
           {provider && !receiverPublicKey && (
             <button
@@ -279,7 +279,7 @@ export default function App() {
             }}
             onClick={transferSol}
           >
-            Transfer SOL to Phantom Wallet
+            Transfer SOL Phantom Wallet
           </button>
           )}
         </span>
